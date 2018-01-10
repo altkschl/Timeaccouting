@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isHome": {
+      "type": "identifier",
+      "selector": "h2",
+      "control": "property.innerText",
+      "selectContains": "Welcome"
+    }
+  },
+  "connect": []
+}
