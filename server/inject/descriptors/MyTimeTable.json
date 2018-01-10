@@ -24,7 +24,7 @@
           },
           "AllocatedHours": {
             "type": "string",
-            "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(3)",
+            "selector": "td",
             "control": "property.innerText"
           },
           "ReleasedHours": {
