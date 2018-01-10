@@ -8,7 +8,10 @@
           "type": "object",
           "properties": {
             "Week": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "Timeframe": {
               "type": "string"
