@@ -9,7 +9,6 @@
     },
     "MyWeeks": {
       "type": "array",
-      "selectorAll": "b",
       "items": {
         "type": "object",
         "properties": {
