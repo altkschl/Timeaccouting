@@ -29,7 +29,7 @@
           },
           "ReleasedHours": {
             "type": "string",
-            "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(4)",
+            "selector": "td:nth-child(4)",
             "control": "property.innerText"
           },
           "TrackHours": {
