@@ -1,34 +1,40 @@
 {
   "listItems": [
     {
-      "Week": "Description Text, lorem ipsum dolor sit amet.",
-      "Timeframe": "01/04/2017",
-      "ReleasedHours": "List Name One"
+      "Week": "1803",
+      "Timeframe": "01/04/2017 - 01/04/2017",
+      "ReleasedHours": "1",
+      "AlllocatedHours": "0"
     },
     {
-      "Week": "consectetur adipiscing elit, sed do eiusmod tempor",
-      "Timeframe": "01/02/2017",
-      "ReleasedHours": "Second List Name"
+      "Week": "1804",
+      "Timeframe": "01/02/2017 - 01/04/2017",
+      "ReleasedHours": "2",
+      "AlllocatedHours": "0"
     },
     {
-      "Week": "incididunt ut labore et dolore magna aliqua",
-      "Timeframe": "12/18/2016",
-      "ReleasedHours": "List Name Three"
+      "Week": "1805",
+      "Timeframe": "12/18/2016 - 01/04/2017",
+      "ReleasedHours": "3",
+      "AlllocatedHours": "0"
     },
     {
-      "Week": "Ut enim ad minim veniam, quis nostrud exercitation",
-      "Timeframe": "12/05/2016",
-      "ReleasedHours": "Fourth List Name"
+      "Week": "1806",
+      "Timeframe": "12/05/2016 - 01/04/2017",
+      "ReleasedHours": "4",
+      "AlllocatedHours": "1"
     },
     {
-      "Week": "ullamco laboris nisi ut aliquip ex ea commodo consequat",
-      "Timeframe": "11/13/2016",
-      "ReleasedHours": "List Name Five"
+      "Week": "1807",
+      "Timeframe": "11/13/2016 - 01/04/2017",
+      "ReleasedHours": "5",
+      "AlllocatedHours": "3"
     },
     {
-      "Week": "Duis aute irure dolor in reprehenderit",
-      "Timeframe": "11/04/2016",
-      "ReleasedHours": "Sixth List Name"
+      "Week": "1808",
+      "Timeframe": "11/04/2016 - 01/04/2017",
+      "ReleasedHours": "6",
+      "AlllocatedHours": "2"
     }
   ]
 }
