@@ -18,7 +18,7 @@
           }
         }
       },
-      "selectorAll": "#main > table"
+      "selectorAll": "#main > table > tbody > tr"
     }
   },
   "connect": []
