@@ -39,7 +39,7 @@
           }
         }
       },
-      "selectorAll": "#main > table > tbody > tr"
+      "selectorAll": "#main > table > tbody > tr(1)"
     }
   },
   "connect": []
