@@ -26,5 +26,23 @@
         }
       }
     }
+  },
+  "mytimetable": {
+    "type": "object",
+    "comment": "mytimetable",
+    "properties": {
+      "Week": {
+        "type": "string"
+      },
+      "Timeframe": {
+        "type": "string"
+      },
+      "AllocatedHours": {
+        "type": "string"
+      },
+      "ReleasedHours": {
+        "type": "string"
+      }
+    }
   }
 }
