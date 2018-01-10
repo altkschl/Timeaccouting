@@ -20,7 +20,7 @@
           }
         }
       },
-      "selectorAll": "table"
+      "selectorAll": "table > tbody > tr"
     }
   },
   "connect": []
