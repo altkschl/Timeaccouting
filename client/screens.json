@@ -20,13 +20,6 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "mytimetable",
-      "name": "mytimetable",
-      "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates",
-      "model": "mytimetable"
     }
   ],
   "sourceAppId": "_blank",
