@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#main > table > tbody >tr"
+      "selectorAll": "#main > table > tbody >tr:nth-child(odd)"
     }
   },
   "connect": []
