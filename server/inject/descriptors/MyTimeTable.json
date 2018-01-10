@@ -25,7 +25,7 @@
           },
           "allocatedhours": {
             "type": "string",
-            "selector": "#main",
+            "selector": "td:nth-child(2) > table > tbody > tr > td",
             "control": "property.innerHTML"
           },
           "releasedhours": {
