@@ -9,7 +9,7 @@
     },
     "mytimetable": {
       "type": "array",
-      "selectorAll": "#main > table > tbody > tr:nth-child(odd)",
+      "selectorAll": "#main > table > tbody > tr:nth-child(odd):not(:first-child)",
       "items": {
         "type": "object",
         "properties": {}
