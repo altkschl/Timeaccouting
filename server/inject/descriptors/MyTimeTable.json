@@ -15,7 +15,7 @@
         "properties": {
           "week": {
             "type": "string",
-            "selector": "td",
+            "selector": "td > h2",
             "control": "property.innerHTML",
             "selectIndex": 1
           },
