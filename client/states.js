@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.timetable', {
+        views: {
+            app: {
+                controller: 'app_timetable',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.timetable');
+                }
+            }
+        }
     });
 });
