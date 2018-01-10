@@ -8,10 +8,6 @@
         "items": {
           "type": "object",
           "properties": {
-            "description": {
-              "type": "string",
-              "label": "description"
-            },
             "name": {
               "type": "string",
               "label": "ListItemName"
@@ -22,6 +18,10 @@
             },
             "action": {
               "type": "action"
+            },
+            "Week": {
+              "type": "string",
+              "label": "description"
             }
           }
         },

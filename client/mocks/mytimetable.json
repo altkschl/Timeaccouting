@@ -2,33 +2,33 @@
   "listItems": [
     {
       "name": "List Name One",
-      "description": "Description Text, lorem ipsum dolor sit amet.",
-      "date": "01/04/2017"
+      "date": "01/04/2017",
+      "Week": "Description Text, lorem ipsum dolor sit amet."
     },
     {
       "name": "Second List Name",
-      "description": "consectetur adipiscing elit, sed do eiusmod tempor",
-      "date": "01/02/2017"
+      "date": "01/02/2017",
+      "Week": "consectetur adipiscing elit, sed do eiusmod tempor"
     },
     {
       "name": "List Name Three",
-      "description": "incididunt ut labore et dolore magna aliqua",
-      "date": "12/18/2016"
+      "date": "12/18/2016",
+      "Week": "incididunt ut labore et dolore magna aliqua"
     },
     {
       "name": "Fourth List Name",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation",
-      "date": "12/05/2016"
+      "date": "12/05/2016",
+      "Week": "Ut enim ad minim veniam, quis nostrud exercitation"
     },
     {
       "name": "List Name Five",
-      "description": "ullamco laboris nisi ut aliquip ex ea commodo consequat",
-      "date": "11/13/2016"
+      "date": "11/13/2016",
+      "Week": "ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
       "name": "Sixth List Name",
-      "description": "Duis aute irure dolor in reprehenderit",
-      "date": "11/04/2016"
+      "date": "11/04/2016",
+      "Week": "Duis aute irure dolor in reprehenderit"
     }
   ]
 }
