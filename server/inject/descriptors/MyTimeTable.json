@@ -21,6 +21,11 @@
             "type": "string",
             "selector": "td > p",
             "control": "property.innerText"
+          },
+          "Hours": {
+            "type": "string",
+            "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(3)",
+            "control": "property.innerText"
           }
         }
       },
