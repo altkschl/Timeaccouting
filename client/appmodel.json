@@ -1,1 +1,27 @@
-{}
+{
+  "mytimetable": {
+    "type": "object",
+    "properties": {
+      "mytimetable": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "week": {
+              "type": "string"
+            },
+            "timeframe": {
+              "type": "string"
+            },
+            "allocatedhours": {
+              "type": "string"
+            },
+            "releasedhours": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
