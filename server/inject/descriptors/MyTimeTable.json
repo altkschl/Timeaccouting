@@ -14,7 +14,7 @@
         "properties": {
           "Week": {
             "type": "string",
-            "selector": "td",
+            "selector": "td > h2",
             "control": "property.innerText",
             "selectIndex": 1
           }
