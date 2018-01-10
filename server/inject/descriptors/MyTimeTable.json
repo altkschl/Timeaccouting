@@ -15,7 +15,7 @@
           "OpenWriteHours": {
             "type": "action",
             "control": "property.innerText",
-            "selector": "td  > b"
+            "selector": "td:nth-child(2)"
           }
         }
       },
