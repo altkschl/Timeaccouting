@@ -9,7 +9,7 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.MyWeeks" type="">
             <div class="item item-icon-right" data-comp-id="item.1"
                 ng-click="app.action('listview', 'data.listItems[item].action', this)"
                 ng-repeat="item in data.listItems"
@@ -17,20 +17,6 @@
                 <div class=" positive" data-comp-id="text.1" ng-bind="item.Week">Price &amp; Availability</div>
                 <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
                     style="font-size: 20px;"></i>
-            </div>
-            <div class="row" data-comp-id="row.1">
-                <div class="col" data-comp-id="column.2">
-                    <label class="item item-input" data-comp-id="textInput.1">
-                        <span class="input-label">Week</span>
-                        <input ng-model="data.MyWeeks.Week" type="text">
-                    </label>
-                </div>
-                <div class="col" data-comp-id="column.1">
-                    <label class="item item-input" data-comp-id="textInput.2">
-                        <span class="input-label">Timeframe</span>
-                        <input ng-model="data.MyWeeks.Timeframe" type="text">
-                    </label>
-                </div>
             </div>
         </ion-list>
     </ion-content>
