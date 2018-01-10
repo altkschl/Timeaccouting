@@ -25,8 +25,7 @@
       "id": "listtimetable",
       "name": "listtimetable",
       "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates",
-      "model": "listtimetable"
+      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",
