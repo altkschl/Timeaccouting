@@ -14,11 +14,13 @@
         "properties": {
           "Week": {
             "type": "string",
-            "selector": "b",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 2
           }
         }
-      }
+      },
+      "selectorAll": "table"
     }
   },
   "connect": []
