@@ -16,6 +16,11 @@
             "type": "string",
             "control": "property.innerText",
             "selector": "td:nth-child(2) > h2"
+          },
+          "Timeframe": {
+            "type": "string",
+            "selector": "td > p",
+            "control": "property.innerText"
           }
         }
       },
