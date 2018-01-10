@@ -3,38 +3,38 @@
     {
       "Week": "1803",
       "Timeframe": "01/04/2017 - 01/04/2017",
-      "ReleasedHours": "1",
-      "AlllocatedHours": "0"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     },
     {
       "Week": "1804",
       "Timeframe": "01/02/2017 - 01/04/2017",
-      "ReleasedHours": "2",
-      "AlllocatedHours": "0"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     },
     {
       "Week": "1805",
       "Timeframe": "12/18/2016 - 01/04/2017",
-      "ReleasedHours": "3",
-      "AlllocatedHours": "0"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     },
     {
       "Week": "1806",
       "Timeframe": "12/05/2016 - 01/04/2017",
-      "ReleasedHours": "4",
-      "AlllocatedHours": "1"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     },
     {
       "Week": "1807",
       "Timeframe": "11/13/2016 - 01/04/2017",
-      "ReleasedHours": "5",
-      "AlllocatedHours": "3"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     },
     {
       "Week": "1808",
       "Timeframe": "11/04/2016 - 01/04/2017",
-      "ReleasedHours": "6",
-      "AlllocatedHours": "2"
+      "ReleasedHours": "0 of 23.5 Hours are released",
+      "AlllocatedHours": "23.5 of 30.6 Hours are allocated"
     }
   ]
 }

@@ -13,18 +13,30 @@
             },
             "Week": {
               "type": "string",
-              "label": "description"
+              "label": "description",
+              "update": {
+                "type": "none"
+              }
             },
             "Timeframe": {
               "type": "string",
-              "label": "Date - Time"
+              "label": "Date - Time",
+              "update": {
+                "type": "none"
+              }
             },
             "ReleasedHours": {
               "type": "string",
               "label": "ListItemName"
             },
             "AlllocatedHours": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "action",
+                "action": [
+                  "listItems[item].action"
+                ]
+              }
             }
           }
         },
