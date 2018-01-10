@@ -15,12 +15,12 @@
         "properties": {
           "week": {
             "type": "string",
-            "selector": "td:nth-child(2) >h2",
+            "selector": "td:nth-child(2) > h2",
             "control": "property.innerHTML"
           },
           "timeframe": {
             "type": "string",
-            "selector": "#main",
+            "selector": "td:nth-child(2) > p",
             "control": "property.innerHTML"
           },
           "allocatedhours": {
