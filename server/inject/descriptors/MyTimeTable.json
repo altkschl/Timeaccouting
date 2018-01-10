@@ -15,8 +15,7 @@
           "Week": {
             "type": "string",
             "selector": "td > h2",
-            "control": "property.innerText",
-            "selectIndex": 1
+            "control": "property.innerText"
           }
         }
       },
