@@ -23,7 +23,7 @@
     },
     {
       "id": "mytimetable",
-      "name": "MyTimeTable",
+      "name": "mytimetable",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "mytimetable"
