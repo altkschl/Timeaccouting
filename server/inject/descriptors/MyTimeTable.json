@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isMyTimeTable": {
+      "type": "identifier",
+      "control": "property.innerHTML",
+      "selector": "b",
+      "selectContains": "Already Allocated"
+    }
+  },
+  "connect": []
+}
