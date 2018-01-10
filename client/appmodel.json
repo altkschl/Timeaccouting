@@ -1,49 +1,4 @@
 {
-  "mytimetable": {
-    "type": "object",
-    "comment": "TableView",
-    "properties": {
-      "listItems": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "action": {
-              "type": "action"
-            },
-            "Week": {
-              "type": "string",
-              "label": "description",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Timeframe": {
-              "type": "string",
-              "label": "Date - Time",
-              "update": {
-                "type": "none"
-              }
-            },
-            "ReleasedHours": {
-              "type": "string",
-              "label": "ListItemName"
-            },
-            "AlllocatedHours": {
-              "type": "string",
-              "update": {
-                "type": "action",
-                "action": [
-                  "listItems[item].action"
-                ]
-              }
-            }
-          }
-        },
-        "label": "ListItems"
-      }
-    }
-  },
   "MyTimeTable": {
     "type": "object",
     "properties": {
