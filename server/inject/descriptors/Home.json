@@ -14,5 +14,12 @@
       "selectContains": "My Time Table"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isHome"
+      ],
+      "action": "getMyTimeTable"
+    }
+  ]
 }
