@@ -22,9 +22,14 @@
             "selector": "td > p",
             "control": "property.innerText"
           },
-          "Hours": {
+          "AllocatedHours": {
             "type": "string",
             "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(3)",
+            "control": "property.innerText"
+          },
+          "ReleasedHours": {
+            "type": "string",
+            "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(4)",
             "control": "property.innerText"
           }
         }
