@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.listtimetable', {
+        views: {
+            app: {
+                controller: 'app_listtimetable',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.listtimetable');
+                }
+            }
+        }
     });
 });
