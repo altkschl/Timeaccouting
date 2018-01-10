@@ -15,7 +15,7 @@
           "Week": {
             "type": "string",
             "control": "property.innerText",
-            "selector": "td:nth-child(2) > h2"
+            "selector": "#main > table > tbody > tr:nth-child(2) > h2"
           },
           "Timeframe": {
             "type": "string",
