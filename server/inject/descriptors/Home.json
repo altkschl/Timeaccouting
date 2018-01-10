@@ -6,6 +6,12 @@
       "selector": "h2",
       "control": "exists",
       "selectContains": "Welcome"
+    },
+    "getMyTimeTable": {
+      "type": "action",
+      "control": "action.link",
+      "selector": "a",
+      "selectContains": "My Time Table"
     }
   },
   "connect": []
