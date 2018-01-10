@@ -3,7 +3,7 @@
   "properties": {
     "isMyTimeTable": {
       "type": "identifier",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selector": "b",
       "selectContains": "Already Allocated"
     }
