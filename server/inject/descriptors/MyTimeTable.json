@@ -11,7 +11,12 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "OpenWriteHours": {
+            "type": "action",
+            "control": "property.innerText"
+          }
+        }
       },
       "selectorAll": "table > tbody > tr"
     }
