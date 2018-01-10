@@ -20,7 +20,7 @@
           }
         }
       },
-      "selectorAll": "table"
+      "selectorAll": "table {width=\"90%\"}"
     }
   },
   "connect": []
