@@ -9,14 +9,29 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.MyWeeks" type="">
-            <div class="item item-icon-right" data-comp-id="item.1"
-                ng-click="app.action('listview', 'data.listItems[item].action', this)"
-                ng-repeat="item in data.listItems"
-                style="border-top: 1px solid rgba(255, 255, 255, 0);">
-                <div class=" positive" data-comp-id="text.1" ng-bind="item.Week">Price &amp; Availability</div>
-                <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
-                    style="font-size: 20px;"></i>
+        <ion-list data-comp-id="ionic-list.1">
+            <div class="row" data-comp-id="row.1">
+                <div class="col" data-comp-id="column.1">
+                    <div class="item item-icon-right" data-comp-id="item.1"
+                        ng-repeat="item in data.MyWeeks">
+                        <div data-comp-id="text.1">
+                            Some text
+                            <span class="item-note"></span>
+                        </div>
+                        <i class="icon ion-ios-arrow-right" data-comp-id="icon.1" style="font-size:32px"></i>
+                    </div>
+                    <div class="row" data-comp-id="row.2">
+                        <div class="col" data-comp-id="column.2">
+                            <div class="item item-icon-right" data-comp-id="item.2">
+                                <div data-comp-id="text.2">
+                                    Some text
+                                    <span class="item-note"></span>
+                                </div>
+                                <i class="icon ion-ios-arrow-right" data-comp-id="icon.2" style="font-size:32px"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </ion-list>
     </ion-content>
