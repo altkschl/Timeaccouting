@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#main > table > tbody >tr:nth-child(2n+1)"
+      "selectorAll": "#main > table > tbody >tr:nth-child(2n)"
     }
   },
   "connect": []
