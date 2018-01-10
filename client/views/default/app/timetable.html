@@ -9,7 +9,7 @@
                 <button class="button button-icon ion-home" data-comp-id="button.2"></button>
             </ion-nav-buttons>
         </ion-nav-bar>
-        <ion-list data-comp-id="ionic-list.1">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.MyWeeks">
             <div class="row" data-comp-id="row.1"
                 ng-click="app.action('tableview', 'data.listItems[item].action', this)"
                 ng-repeat="item in data.listItems"
