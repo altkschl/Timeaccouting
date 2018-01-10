@@ -6,6 +6,14 @@
       "control": "exists",
       "selector": "b",
       "selectContains": "Already Allocated"
+    },
+    "mytimetable": {
+      "type": "array",
+      "selectorAll": "#main > table > tbody > tr:nth-child(odd)",
+      "items": {
+        "type": "object",
+        "properties": {}
+      }
     }
   },
   "connect": []
