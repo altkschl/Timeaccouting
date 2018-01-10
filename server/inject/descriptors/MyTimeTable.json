@@ -6,35 +6,6 @@
       "control": "exists",
       "selector": "b",
       "selectContains": "Already Allocated"
-    },
-    "MyWeeks": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "Week": {
-            "type": "string",
-            "control": "property.innerText",
-            "selector": "td:nth-child(2) > h2"
-          },
-          "Timeframe": {
-            "type": "string",
-            "selector": "td:nth-child(2) > p",
-            "control": "property.innerText"
-          },
-          "AllocatedHours": {
-            "type": "string",
-            "selector": "td:nth-child(3) > table > tbody > tr > td",
-            "control": "property.innerText"
-          },
-          "ReleasedHours": {
-            "type": "string",
-            "selector": "td:nth-child(4) > table > tbody > tr > td",
-            "control": "property.innerText"
-          }
-        }
-      },
-      "selectorAll": "#main > table > tbody >tr:nth-child(odd):not(:first-child)"
     }
   },
   "connect": []
