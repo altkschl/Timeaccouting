@@ -1,56 +1,82 @@
 {
   "listItems": [
     {
-      "Week": "Price & Availability",
-      "Timeframe": "fa-tag"
+      "Week": "1802",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Search by Part Number",
-      "Timeframe": "fa-search"
+      "Week": "1803",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Browse Products",
-      "Timeframe": "fa-cogs"
+      "Week": "1804",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Direct Order Entry",
-      "Timeframe": "fa-file-text"
+      "Week": "1805",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Import Order",
-      "Timeframe": "fa-download"
+      "Week": "1806",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "View Order History",
-      "Timeframe": "fa-history"
+      "Week": "1807",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Quick Quote Entry",
-      "Timeframe": "fa-calculator"
+      "Week": "1808",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "SP/SD Request",
-      "Timeframe": "fa-money"
+      "Week": "1809",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "SD Claim",
-      "Timeframe": "fa-bullhorn"
+      "Week": "1810",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "RMA",
-      "Timeframe": "fa-archive"
+      "Week": "1811",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "Stock Rotation",
-      "Timeframe": "fa-repeat"
+      "Week": "1812",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "New Part Number",
-      "Timeframe": "fa-cog"
+      "Week": "1813",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     },
     {
-      "Week": "View/Print Statement",
-      "Timeframe": "fa-print"
+      "Week": "1814",
+      "Timeframe": "08.01.2018 - 14.01.2018",
+      "AllocatedHours": "0 of 38.5 Hours are allocated",
+      "ReleasedHours": "0 of 0 Hours are released"
     }
   ]
 }
