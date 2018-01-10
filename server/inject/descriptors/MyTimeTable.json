@@ -34,7 +34,7 @@
           },
           "TrackHours": {
             "type": "action",
-            "selector": "#main > table > tbody > tr:nth-child(5) > td.ui-buttonset",
+            "selector": "td:nth-child(1) > td.ui-buttonset",
             "control": "action.button"
           }
         }
