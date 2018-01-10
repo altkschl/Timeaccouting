@@ -26,13 +26,6 @@
       "name": "MyTimeTable",
       "sourceScreenId": "app.tableview.tabledatacool",
       "sourceAppId": "universaltemplates"
-    },
-    {
-      "id": "timetable",
-      "name": "TimeTable",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "MyTimeTable"
     }
   ],
   "sourceAppId": "_blank",
