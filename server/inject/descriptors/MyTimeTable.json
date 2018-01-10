@@ -34,7 +34,7 @@
           }
         }
       },
-      "selectorAll": "#main > table > tbody >tr:even"
+      "selectorAll": "#main > table > tbody >tr"
     }
   },
   "connect": []
