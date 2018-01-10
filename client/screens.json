@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "myweeks",
-      "name": "MyWeeks",
+      "id": "mywe",
+      "name": "MyWe",
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "mytimetable"
