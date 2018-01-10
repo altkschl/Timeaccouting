@@ -31,6 +31,11 @@
             "type": "string",
             "selector": "#main > table > tbody > tr:nth-child(3) > td:nth-child(4)",
             "control": "property.innerText"
+          },
+          "TrackHours": {
+            "type": "action",
+            "selector": "#main > table > tbody > tr:nth-child(5) > td.ui-buttonset",
+            "control": "action.button"
           }
         }
       },
