@@ -33,12 +33,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.mywe', {
+    }).state('app.mytimetable', {
         views: {
             app: {
-                controller: 'app_mywe',
+                controller: 'app_mytimetable',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.mywe');
+                    return app.templateProvider('app.mytimetable');
                 }
             }
         }
