@@ -14,7 +14,8 @@
         "properties": {
           "OpenWriteHours": {
             "type": "action",
-            "control": "property.innerText"
+            "control": "property.innerText",
+            "selector": "td"
           }
         }
       },
