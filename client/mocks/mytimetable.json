@@ -1,34 +1,34 @@
 {
   "listItems": [
     {
-      "name": "List Name One",
-      "date": "01/04/2017",
-      "Week": "Description Text, lorem ipsum dolor sit amet."
+      "Week": "Description Text, lorem ipsum dolor sit amet.",
+      "Timeframe": "01/04/2017",
+      "ReleasedHours": "List Name One"
     },
     {
-      "name": "Second List Name",
-      "date": "01/02/2017",
-      "Week": "consectetur adipiscing elit, sed do eiusmod tempor"
+      "Week": "consectetur adipiscing elit, sed do eiusmod tempor",
+      "Timeframe": "01/02/2017",
+      "ReleasedHours": "Second List Name"
     },
     {
-      "name": "List Name Three",
-      "date": "12/18/2016",
-      "Week": "incididunt ut labore et dolore magna aliqua"
+      "Week": "incididunt ut labore et dolore magna aliqua",
+      "Timeframe": "12/18/2016",
+      "ReleasedHours": "List Name Three"
     },
     {
-      "name": "Fourth List Name",
-      "date": "12/05/2016",
-      "Week": "Ut enim ad minim veniam, quis nostrud exercitation"
+      "Week": "Ut enim ad minim veniam, quis nostrud exercitation",
+      "Timeframe": "12/05/2016",
+      "ReleasedHours": "Fourth List Name"
     },
     {
-      "name": "List Name Five",
-      "date": "11/13/2016",
-      "Week": "ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      "Week": "ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "Timeframe": "11/13/2016",
+      "ReleasedHours": "List Name Five"
     },
     {
-      "name": "Sixth List Name",
-      "date": "11/04/2016",
-      "Week": "Duis aute irure dolor in reprehenderit"
+      "Week": "Duis aute irure dolor in reprehenderit",
+      "Timeframe": "11/04/2016",
+      "ReleasedHours": "Sixth List Name"
     }
   ]
 }

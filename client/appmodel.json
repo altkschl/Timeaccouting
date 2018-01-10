@@ -8,20 +8,23 @@
         "items": {
           "type": "object",
           "properties": {
-            "name": {
-              "type": "string",
-              "label": "ListItemName"
-            },
-            "date": {
-              "type": "string",
-              "label": "Date - Time"
-            },
             "action": {
               "type": "action"
             },
             "Week": {
               "type": "string",
               "label": "description"
+            },
+            "Timeframe": {
+              "type": "string",
+              "label": "Date - Time"
+            },
+            "ReleasedHours": {
+              "type": "string",
+              "label": "ListItemName"
+            },
+            "AlllocatedHours": {
+              "type": "string"
             }
           }
         },
