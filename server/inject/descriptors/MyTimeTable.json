@@ -12,7 +12,29 @@
       "selectorAll": "#main > table > tbody > tr:nth-child(odd):not(:first-child)",
       "items": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "week": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerHTML",
+            "selectIndex": 1
+          },
+          "timeframe": {
+            "type": "string",
+            "selector": "#main",
+            "control": "property.innerHTML"
+          },
+          "allocatedhours": {
+            "type": "string",
+            "selector": "#main",
+            "control": "property.innerHTML"
+          },
+          "releasedhours": {
+            "type": "string",
+            "selector": "#main",
+            "control": "property.innerHTML"
+          }
+        }
       }
     }
   },
