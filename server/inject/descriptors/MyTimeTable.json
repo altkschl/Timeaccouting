@@ -11,13 +11,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {
-          "Week": {
-            "type": "string",
-            "selector": "td > h2",
-            "control": "property.innerText"
-          }
-        }
+        "properties": {}
       },
       "selectorAll": "table > tbody > tr"
     }
