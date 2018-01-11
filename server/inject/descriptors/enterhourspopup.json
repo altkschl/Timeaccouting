@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isEnterHoursPopup": {
+      "type": "identifier",
+      "selector": "#ui-dialog-title-dialog-form",
+      "control": "property.innerText",
+      "selectContains": "Enter Hours in Week"
+    }
+  },
+  "connect": []
+}
