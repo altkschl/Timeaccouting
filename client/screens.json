@@ -22,8 +22,8 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "mytimetable",
-      "name": "mytimetable",
+      "id": "mytimetable1",
+      "name": "mytimetable1",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "mytimetable"
