@@ -30,6 +30,9 @@
               "update": {
                 "type": "none"
               }
+            },
+            "ChooseWeek": {
+              "type": "action"
             }
           }
         },
