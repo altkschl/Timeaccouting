@@ -9,7 +9,7 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.1" ng-repeat="item in data.mytimetable">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.mytimetable">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
                     <div data-comp-id="text.1" ng-bind="item.week">Some text</div>
@@ -28,6 +28,6 @@
                     <div data-comp-id="text.4" ng-bind="item.releasedhours">Some text</div>
                 </div>
             </div>
-        </div>
+        </ion-list>
     </ion-content>
 </ion-view>
