@@ -27,6 +27,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "mytimetable"
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "sourceScreenId": "app.tableview.tabledatacool",
+      "sourceAppId": "universaltemplates",
+      "model": "test"
     }
   ],
   "sourceAppId": "_blank",
