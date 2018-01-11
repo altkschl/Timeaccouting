@@ -16,6 +16,11 @@
       "type": "string",
       "control": "text",
       "selector": "#dproject"
+    },
+    "function": {
+      "type": "string",
+      "control": "text",
+      "selector": "#dfunction"
     }
   },
   "connect": []
