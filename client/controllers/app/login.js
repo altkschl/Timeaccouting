@@ -5,7 +5,7 @@ function app_login($scope, app, $q, powwowLoginNew) {
     app.init($scope);
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
-        app.action('login', 'submit', this);
+      app.call('login.loginBasic', credentials);
     };
 
 /*
