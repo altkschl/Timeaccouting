@@ -21,6 +21,11 @@
       "type": "string",
       "control": "text",
       "selector": "#dfunction"
+    },
+    "hours": {
+      "type": "string",
+      "control": "text",
+      "selector": "#hourAmount"
     }
   },
   "connect": []
