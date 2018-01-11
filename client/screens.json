@@ -41,13 +41,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "test1",
-      "name": "test1",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "mytimetable"
     }
   ],
   "sourceAppId": "_blank",
