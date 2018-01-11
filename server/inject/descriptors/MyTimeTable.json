@@ -26,7 +26,7 @@
           "allocatedhours": {
             "type": "string",
             "selector": "td:nth-child(3) > table > tbody > tr > td",
-            "control": "property.innerHTML"
+            "control": "property.innerText"
           },
           "releasedhours": {
             "type": "string",
