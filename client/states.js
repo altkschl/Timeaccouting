@@ -51,12 +51,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.login', {
+    }).state('app.test', {
         views: {
             app: {
-                controller: 'app_login',
+                controller: 'app_test',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.login');
+                    return app.templateProvider('app.test');
                 }
             }
         }
