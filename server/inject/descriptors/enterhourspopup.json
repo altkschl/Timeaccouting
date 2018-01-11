@@ -36,6 +36,7 @@
   "connect": [
     {
       "match": [
+        "isEnterHoursPopup",
         "isEnterHoursPopup"
       ],
       "action": "clickConfirm"
