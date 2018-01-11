@@ -6,6 +6,11 @@
       "control": "exists",
       "selector": "h4",
       "selectContains": "Enter Hours"
+    },
+    "clickEnterHours": {
+      "type": "action",
+      "control": "action.button",
+      "selector": "#allocateB"
     }
   },
   "connect": []
