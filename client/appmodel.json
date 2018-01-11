@@ -49,25 +49,37 @@
       "customer": {
         "type": "string",
         "update": {
-          "type": "none"
+          "type": "action",
+          "action": [
+            "clickConfirm"
+          ]
         }
       },
       "project": {
         "type": "string",
         "update": {
-          "type": "none"
+          "type": "action",
+          "action": [
+            "clickConfirm"
+          ]
         }
       },
       "function": {
         "type": "string",
         "update": {
-          "type": "none"
+          "type": "action",
+          "action": [
+            "clickConfirm"
+          ]
         }
       },
       "hours": {
         "type": "string",
         "update": {
-          "type": "none"
+          "type": "action",
+          "action": [
+            "clickConfirm"
+          ]
         }
       },
       "clickConfirm": {
