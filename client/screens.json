@@ -27,6 +27,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "mytimetable"
+    },
+    {
+      "id": "enterhourspopup",
+      "name": "enterhourspopup",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "enterhourspopup"
     }
   ],
   "sourceAppId": "_blank",
