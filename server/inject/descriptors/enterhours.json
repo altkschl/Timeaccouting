@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isEnterHours": {
+      "type": "identifier",
+      "control": "exists",
+      "selector": "h4",
+      "selectContains": "Enter Hours"
+    }
+  },
+  "connect": []
+}
