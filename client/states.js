@@ -60,12 +60,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.test', {
+    }).state('app.mytimetable', {
         views: {
             app: {
-                controller: 'app_test',
+                controller: 'app_mytimetable',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.test');
+                    return app.templateProvider('app.mytimetable');
                 }
             }
         }

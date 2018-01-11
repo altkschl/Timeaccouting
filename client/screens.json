@@ -43,8 +43,8 @@
       "model": "login"
     },
     {
-      "id": "test",
-      "name": "Test",
+      "id": "mytimetable",
+      "name": "mytimetable",
       "sourceScreenId": "app.tableview.tabledatacool",
       "sourceAppId": "universaltemplates",
       "model": "test"
