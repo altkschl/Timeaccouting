@@ -6,6 +6,11 @@
       "selector": "#ui-dialog-title-dialog-form",
       "control": "exists",
       "selectContains": "Enter Hours in Week"
+    },
+    "customer": {
+      "type": "string",
+      "control": "text",
+      "selector": "#dcustomer"
     }
   },
   "connect": []
