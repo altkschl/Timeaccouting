@@ -37,5 +37,14 @@
       }
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isMyTimeTable"
+      ],
+      "screens": [
+        "mytimetable"
+      ]
+    }
+  ]
 }
