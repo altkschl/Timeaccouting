@@ -9,26 +9,19 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.mytimetable">
-            <div class="row" data-comp-id="row.1"
-                style="margin: 5px 0px; border-bottom: 1px solid rgb(221, 221, 221);">
-                <div class="col" data-comp-id="column.1" style="padding: 10px;">
-                    <div class=" positive" data-comp-id="text.1" ng-bind="item.week"
-                        style="font-size: 20px; line-height: 28px;">Some text</div>
-                    <div class=" dark" data-comp-id="text.2" ng-bind="item.timeframe"
-                        style="font-size: 12px;">Some text</div>
-                    <div class=" dark" data-comp-id="text.3" ng-bind="item.allocatedhours"
-                        style="font-size: 16px; line-height: 24px;">Some text</div>
-                    <div class=" dark" data-comp-id="text.4" ng-bind="item.releasedhours"
-                        style="font-size: 16px; line-height: 24px;">Some text</div>
+        <div class="item item-icon-right" data-comp-id="item.1">
+            <div class="card" data-comp-display="card.1" data-comp-id="div.1">
+                <div class="row" data-comp-id="row.1">
+                    <div class="col" data-comp-id="column.1"></div>
+                    <div class="col" data-comp-id="column.2"></div>
                 </div>
-                <div class="col" data-comp-id="column.2"
-                    style="max-width: 10%; padding: 10px 5px;">
-                    <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
-                        ng-click="app.action('mytimetable', 'mytimetable[item].ChooseWeek', this)"
-                        style="font-size: 30px;"></i>
+                <div class="row" data-comp-id="row.2">
+                    <div class="col" data-comp-id="column.3"></div>
+                    <div class="col" data-comp-id="column.4"></div>
                 </div>
             </div>
-        </ion-list>
+            <i class="icon ion-ios-arrow-right" collection-repeat="item in data.mytimetable"
+                data-comp-id="icon.1" style="font-size:32px"></i>
+        </div>
     </ion-content>
 </ion-view>
