@@ -1,1 +1,10 @@
-{}
+{
+  "mytimetable": [
+    {
+      "week": "1801",
+      "timeframe": "timeframe1",
+      "allocatedhours": "10 of 20 hours",
+      "releasedhours": "5 of 15 hours"
+    }
+  ]
+}
