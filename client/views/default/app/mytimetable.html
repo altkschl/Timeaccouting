@@ -1,8 +1,18 @@
 <ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">My Time Table</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-home" data-comp-id="button.2"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.mytimetable">
-            <div class="row" data-comp-id="row.1">
-                <div class="col" data-comp-id="column.1">
+            <div class="row" data-comp-id="row.1"
+                style="margin: 5px 0px; border-bottom: 1px solid rgb(221, 221, 221);">
+                <div class="col" data-comp-id="column.1" style="padding: 10px;">
                     <div class=" positive" data-comp-id="text.1" ng-bind="item.week"
                         style="font-size: 20px; line-height: 28px;">Some text</div>
                     <div class=" dark" data-comp-id="text.2" ng-bind="item.timeframe"
@@ -12,6 +22,8 @@
                     <div class=" dark" data-comp-id="text.4" ng-bind="item.releasedhours"
                         style="font-size: 16px; line-height: 24px;">Some text</div>
                 </div>
+                <div class="col" data-comp-id="column.2"
+                    style="max-width: 10%; padding: 10px 5px;"></div>
             </div>
         </ion-list>
     </ion-content>
