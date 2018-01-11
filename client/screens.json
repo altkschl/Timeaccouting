@@ -41,6 +41,13 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "test",
+      "name": "Test",
+      "sourceScreenId": "app.tableview.tabledatacool",
+      "sourceAppId": "universaltemplates",
+      "model": "test"
     }
   ],
   "sourceAppId": "_blank",
