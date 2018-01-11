@@ -1,3 +1,14 @@
+
+angular.module('app').controller('app_login', app_login);
+function app_login($scope, app, $q, powwowLoginNew) {
+    'use strict';
+    app.init($scope);
+    $scope.login = function () {
+        $scope.app.showLoading('Logging in');
+        app.action('login', 'submit', this);
+    };
+
+/*
 angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
@@ -22,4 +33,4 @@ function app_login($scope, app, $q, powwowLoginNew) {
             app.origEstablishConnection(params);
         }
     };
-}
+}*/
