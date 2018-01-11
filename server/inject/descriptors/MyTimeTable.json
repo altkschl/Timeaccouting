@@ -50,10 +50,6 @@
       "screens": [
         "mytimetable"
       ]
-    },
-    {
-      "match": [],
-      "action": "mytimetable.ChooseWeek"
     }
   ]
 }
