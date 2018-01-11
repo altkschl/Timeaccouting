@@ -28,10 +28,17 @@
       "selector": "#hourAmount"
     },
     "clickConfirm": {
-      "type": "string",
+      "type": "action",
       "control": "action.button",
       "selector": ".ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isEnterHoursPopup"
+      ],
+      "action": "clickConfirm"
+    }
+  ]
 }
