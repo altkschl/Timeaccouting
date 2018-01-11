@@ -11,6 +11,11 @@
       "type": "string",
       "control": "text",
       "selector": "#dcustomer"
+    },
+    "project": {
+      "type": "string",
+      "control": "text",
+      "selector": "#dproject"
     }
   },
   "connect": []
