@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "timeaccouting",
-  "startScreen": "app.blank",
+  "startScreen": "app.mytimetable",
   "screens": [
     {
       "id": "blank",

@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "2b36e1a3",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "altkschl"
+  "creatorId": "altkschl",
+  "id": "timeaccouting",
+  "previewImageURL": "/previews/2b36e1a3-timeaccouting/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/altkschl/Timeaccouting",
+  "creatorName": "Kevin Schlosser",
+  "sdks": []
 }
