@@ -4,7 +4,7 @@
     "isEnterHoursPopup": {
       "type": "identifier",
       "selector": "#ui-dialog-title-dialog-form",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Enter Hours in Week"
     }
   },
