@@ -1,5 +1,5 @@
-angular.module('app').controller('app_test', app_test);
-function app_test($scope, app, $q, powwowLoginNew) {
+angular.module('app').controller('app_login', app_login);
+function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
     app.init($scope);
     $scope.login = function () {

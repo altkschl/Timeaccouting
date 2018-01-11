@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "timeaccouting",
-  "startScreen": "app.test",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
@@ -36,8 +36,8 @@
       "model": "enterhourspopup"
     },
     {
-      "id": "test",
-      "name": "test",
+      "id": "login",
+      "name": "login",
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
