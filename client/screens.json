@@ -41,13 +41,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "mytimetable",
-      "name": "mytimetable",
-      "sourceScreenId": "app.tableview.tabledatacool",
-      "sourceAppId": "universaltemplates",
-      "model": "test"
     }
   ],
   "sourceAppId": "_blank",
