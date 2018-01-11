@@ -1,0 +1,18 @@
+{
+  "radioData": {
+    "selected": {
+      "label": "Radio 1",
+      "value": 1
+    },
+    "options": [
+      {
+        "label": "Radio 1",
+        "value": 1
+      },
+      {
+        "label": "Radio 2",
+        "value": 2
+      }
+    ]
+  }
+}
