@@ -2,9 +2,33 @@
   "mytimetable": [
     {
       "week": "1801",
-      "timeframe": "timeframe1",
-      "allocatedhours": "10 of 20 hours",
-      "releasedhours": "5 of 15 hours"
+      "timeframe": "01.01.2018 - 07.01.2018",
+      "allocatedhours": "0 of 38.5 Hours are allocated",
+      "releasedhours": "0 of 0 Hours are released"
+    },
+    {
+      "week": "1802",
+      "timeframe": "01.01.2018 - 07.01.2018",
+      "allocatedhours": "0 of 38.5 Hours are allocated",
+      "releasedhours": "0 of 0 Hours are released"
+    },
+    {
+      "week": "1803",
+      "timeframe": "01.01.2018 - 07.01.2018",
+      "allocatedhours": "0 of 38.5 Hours are allocated",
+      "releasedhours": "0 of 0 Hours are released"
+    },
+    {
+      "week": "1804",
+      "timeframe": "01.01.2018 - 07.01.2018",
+      "allocatedhours": "0 of 38.5 Hours are allocated",
+      "releasedhours": "0 of 0 Hours are released"
+    },
+    {
+      "week": "1805",
+      "timeframe": "01.01.2018 - 07.01.2018",
+      "allocatedhours": "0 of 38.5 Hours are allocated",
+      "releasedhours": "0 of 0 Hours are released"
     }
   ]
 }
