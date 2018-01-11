@@ -21,7 +21,7 @@
           "timeframe": {
             "type": "string",
             "selector": "td:nth-child(2) > p",
-            "control": "text"
+            "control": "property.innerText"
           },
           "allocatedhours": {
             "type": "string",
