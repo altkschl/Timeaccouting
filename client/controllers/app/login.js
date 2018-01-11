@@ -58,7 +58,7 @@ function app_login($scope, app, $q) {
     };
 }*/
 angular.module('app').controller('app_login', app_login);
-function app_login($scope, app, $q, powwowLoginNew) {
+function app_login($scope, app, $q, login) {
     'use strict';
     app.init($scope);
 
