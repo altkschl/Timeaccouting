@@ -8,16 +8,28 @@
           "type": "object",
           "properties": {
             "week": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "timeframe": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "allocatedhours": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "releasedhours": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             }
           }
         },

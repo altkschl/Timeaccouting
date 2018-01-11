@@ -3,9 +3,10 @@
         <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.mytimetable">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1">Some text</div>
-                    <div data-comp-id="text.2">Some text</div>
-                    <div data-comp-id="text.3">Some text</div>
+                    <div data-comp-id="text.1" ng-bind="item.week">Some text</div>
+                    <div data-comp-id="text.2" ng-bind="item.timeframe">Some text</div>
+                    <div data-comp-id="text.3" ng-bind="item.allocatedhours">Some text</div>
+                    <div data-comp-id="text.4" ng-bind="item.releasedhours">Some text</div>
                 </div>
             </div>
         </ion-list>
