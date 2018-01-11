@@ -68,7 +68,7 @@
         }
       },
       "clickConfirm": {
-        "type": "string"
+        "type": "action"
       }
     }
   }
