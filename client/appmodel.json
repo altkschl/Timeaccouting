@@ -121,13 +121,13 @@
     "type": "object",
     "properties": {
       "customer": {
-        "type": "string"
+        "type": "select"
       },
       "project": {
-        "type": "string"
+        "type": "select"
       },
       "function": {
-        "type": "string"
+        "type": "select"
       },
       "hours": {
         "type": "string"
