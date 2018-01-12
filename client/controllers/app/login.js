@@ -12,7 +12,9 @@ function app_login($scope, app, $q, powwowLoginNew) {
  
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
+        alert("test1");
         app.action('login', 'submit', this);
+        alert("test2");
     };
  
     app.origEstablishConnection = app.establishConnection;
