@@ -12,14 +12,13 @@ function app_login($scope, app, $q, powwowLoginNew) {
  
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
-        alert("test1");
         app.action('login', 'submit', this);
-        alert("test2");
     };
  
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
         if (app.alreadyConnected) {
+            alert("testConnected");
             console.log("Calling powwowLoginNew getcachedcredentials");
             var credentials = powwowLoginNew.getCachedCredentials();
             if (!credentials.username) {
@@ -31,6 +30,7 @@ function app_login($scope, app, $q, powwowLoginNew) {
             }
             app.call('login.loginBasic', credentials);
         } else {
+            alert("NOTconnected");
             app.origEstablishConnection(params);
         }
     }
