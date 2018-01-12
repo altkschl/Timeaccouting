@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.fdsyf', {
+        views: {
+            app: {
+                controller: 'app_fdsyf',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.fdsyf');
+                }
+            }
+        }
     });
 });

@@ -1,0 +1,38 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-positive" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Small Form</ion-nav-title>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-home" data-comp-id="button.2"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class="" data-comp-id="ionic-content.1">
+        <!--Form Contents-->
+        <div data-comp-id="div.1" style="margin: 10% 10% 2%;">
+            <label class="item item-input light-bg" data-comp-id="textInput.1">
+                <span class="input-label dark">Name</span>
+                <input ng-model="data.name" type="text">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.2">
+                <span class="input-label">Phone</span>
+                <input ng-model="data.phone" type="text">
+            </label>
+            <label class="item item-input" data-comp-id="textInput.3">
+                <span class="input-label">Email</span>
+                <input ng-model="data.email" type="text">
+            </label>
+        </div>
+        <div data-comp-id="div.2" style="width: 80%; margin: 10%;">
+            <div class="row" data-comp-id="row.1" style="margin: 0px;">
+                <div class="col" data-comp-id="column.1">
+                    <button class="button button-block button-positive" data-comp-id="button.3"
+                        ng-click="app.action('form', 'submit', this)"
+                        style="border-color: rgba(255, 255, 255, 0);">Submit</button>
+                </div>
+            </div>
+        </div>
+        <!--Form Contents-->
+    </ion-content>
+</ion-view>
