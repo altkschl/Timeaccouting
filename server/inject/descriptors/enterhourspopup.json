@@ -8,17 +8,17 @@
       "selectContains": "Enter Hours in Week"
     },
     "customer": {
-      "type": "string",
+      "type": "select",
       "control": "text",
       "selector": "#dcustomer"
     },
     "project": {
-      "type": "string",
+      "type": "select",
       "control": "text",
       "selector": "#dproject"
     },
     "function": {
-      "type": "string",
+      "type": "select",
       "control": "text",
       "selector": "#dfunction"
     },
