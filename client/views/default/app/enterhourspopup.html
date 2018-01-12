@@ -14,12 +14,14 @@
         <div data-comp-id="div.2">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <select-list data-comp-id="selectList.1" ng-model="data.customer">Select Customer...</select-list>
+                    <select-list data-comp-id="selectList.1" label-class=" required"
+                        ng-model="data.customer">Select Customer...</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
-                    <select-list data-comp-id="selectList.2" ng-model="data.project">Select Project...</select-list>
+                    <select-list data-comp-id="selectList.2" label-class=" required"
+                        ng-model="data.project">Select Project...</select-list>
                 </div>
             </div>
             <div class="row" data-comp-id="row.3">
@@ -30,8 +32,9 @@
         </div>
         <div class="row" data-comp-id="row.4">
             <div class="col" data-comp-id="column.4">
+                <h4 data-comp-id="text.1">Hours</h4>
                 <label class="item item-input item-stacked-label" data-comp-id="textInput.1">
-                    <span class="input-label">0</span>
+                    <span class="input-label required">0</span>
                     <input ng-model="data.hours" type="number">
                 </label>
             </div>
