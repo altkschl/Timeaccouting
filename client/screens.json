@@ -41,6 +41,13 @@
       "sourceScreenId": "app.tableview.tabledatacool",
       "sourceAppId": "universaltemplates",
       "model": "tabledatacool"
+    },
+    {
+      "id": "enterhourspopup1",
+      "name": "enterhourspopup1",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "enterhourspopup"
     }
   ],
   "sourceAppId": "_blank",
