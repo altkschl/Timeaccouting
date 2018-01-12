@@ -36,13 +36,6 @@
       "model": "login"
     },
     {
-      "id": "enterhourspopup1",
-      "name": "enterhourspopup1",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "enterhourspopup"
-    },
-    {
       "id": "test",
       "name": "test",
       "sourceScreenId": "app.formsmall.formsmallcaptivating",
