@@ -14,5 +14,21 @@
         "value": "3"
       }
     ]
+  },
+  "customer": {
+    "options": [
+      {
+        "label": "IT/IS Althofen",
+        "value": "1"
+      },
+      {
+        "label": "Program Management",
+        "value": "2"
+      },
+      {
+        "label": "Engineering",
+        "value": "3"
+      }
+    ]
   }
 }
