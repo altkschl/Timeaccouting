@@ -12,25 +12,27 @@
             </ion-nav-bar>
         </div>
         <div data-comp-id="div.2">
-            <div class="row" data-comp-id="row.1">
+            <div class="row" data-comp-id="row.1" style="padding: 60px;">
                 <div class="col" data-comp-id="column.1">
-                    <select-list data-comp-id="selectList.2" label-class=" required"
+                    <select-list data-comp-id="selectList.3" label-class=" required"
+                        ng-model="data.function">Select Customer...</select-list>
+                    <select-list data-comp-id="selectList.1" label-class=" required"
                         ng-model="data.project">Select Project...</select-list>
-                    <select-list data-comp-id="selectList.3" ng-model="data.function">Select Function...</select-list>
-                    <select-list data-comp-id="selectList.1" ng-model="data.function">Select Customer...</select-list>
+                    <select-list data-comp-id="selectList.2" ng-model="data.function">Select Function...</select-list>
                 </div>
             </div>
         </div>
-        <div class="row" data-comp-id="row.4">
-            <div class="col" data-comp-id="column.4">
-                <label class="item item-input item-stacked-label" data-comp-id="textInput.1">
-                    <span class="input-label required">0</span>
+        <div class="row" data-comp-id="row.2">
+            <div class="col" data-comp-id="column.2">
+                <label class="item item-input item-stacked-label item-outside-label"
+                    data-comp-id="textInput.1">
+                    <span class="input-label required">Hours</span>
                     <input ng-model="data.hours" type="number">
                 </label>
             </div>
         </div>
-        <div class="row" data-comp-id="row.5">
-            <div class="col" data-comp-id="column.5">
+        <div class="row" data-comp-id="row.3">
+            <div class="col" data-comp-id="column.3">
                 <button class="button button-block button-positive" data-comp-id="button.3">Submit</button>
             </div>
         </div>
