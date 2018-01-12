@@ -1,1 +1,18 @@
-{}
+{
+  "project": {
+    "options": [
+      {
+        "label": "Corrective Action Tracker",
+        "value": "1"
+      },
+      {
+        "label": "DPM Calculator",
+        "value": "2"
+      },
+      {
+        "label": "HR Training Tool",
+        "value": "3"
+      }
+    ]
+  }
+}
