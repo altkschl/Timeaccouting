@@ -13,7 +13,6 @@ function app_login($scope, app, $q, powwowLoginNew) {
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
         app.action('login', 'submit', this);
-    };
  
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
@@ -33,5 +32,6 @@ function app_login($scope, app, $q, powwowLoginNew) {
             alert("NOTconnected");
             app.origEstablishConnection(params);
         }
+    }
     }
 }
