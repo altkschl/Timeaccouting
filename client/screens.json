@@ -29,13 +29,6 @@
       "model": "mytimetable"
     },
     {
-      "id": "enterhourspopup",
-      "name": "enterhourspopup",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "enterhourspopup"
-    },
-    {
       "id": "login",
       "name": "login",
       "sourceScreenId": "app.login.loginconfident",
