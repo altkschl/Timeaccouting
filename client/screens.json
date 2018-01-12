@@ -41,6 +41,12 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "enterhourspopup"
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "sourceScreenId": "app.formsmall.formsmallcaptivating",
+      "sourceAppId": "universaltemplates"
     }
   ],
   "sourceAppId": "_blank",
