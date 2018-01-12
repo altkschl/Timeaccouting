@@ -2,11 +2,11 @@ angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
     app.init($scope);
-    app.action('login','submit', this);
+
  
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
-        app.action('login', 'submit', this);
+        app.action('login','submit', this);
     };
  
     app.origEstablishConnection = app.establishConnection;
