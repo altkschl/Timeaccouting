@@ -34,6 +34,13 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "enterhourspopup",
+      "name": "enterhourspopup",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "enterhourspopup"
     }
   ],
   "sourceAppId": "_blank",

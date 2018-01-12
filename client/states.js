@@ -51,5 +51,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.enterhourspopup', {
+        views: {
+            app: {
+                controller: 'app_enterhourspopup',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.enterhourspopup');
+                }
+            }
+        }
     });
 });

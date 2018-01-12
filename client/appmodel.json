@@ -116,5 +116,25 @@
         "label": "ListItems"
       }
     }
+  },
+  "enterhourspopup": {
+    "type": "object",
+    "properties": {
+      "customer": {
+        "type": "string"
+      },
+      "project": {
+        "type": "string"
+      },
+      "function": {
+        "type": "string"
+      },
+      "hours": {
+        "type": "string"
+      },
+      "clickConfirm": {
+        "type": "action"
+      }
+    }
   }
 }
