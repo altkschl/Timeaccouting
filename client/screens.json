@@ -36,13 +36,6 @@
       "model": "login"
     },
     {
-      "id": "tabledatacool",
-      "name": "TableData-Cool",
-      "sourceScreenId": "app.tableview.tabledatacool",
-      "sourceAppId": "universaltemplates",
-      "model": "tabledatacool"
-    },
-    {
       "id": "enterhourspopup1",
       "name": "enterhourspopup1",
       "sourceScreenId": "app.blank",

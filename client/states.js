@@ -51,15 +51,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.tabledatacool', {
-        views: {
-            app: {
-                controller: 'app_tabledatacool',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.tabledatacool');
-                }
-            }
-        }
     }).state('app.enterhourspopup1', {
         views: {
             app: {
