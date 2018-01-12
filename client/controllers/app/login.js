@@ -6,7 +6,7 @@ function app_login($scope, app, $q, powwowLoginNew) {
  
     $scope.login = function () {
         $scope.app.showLoading('Logging in');
-        app.action('login','login', this);
+        app.call('login','loginBasic', this);
     };
  
     app.origEstablishConnection = app.establishConnection;
