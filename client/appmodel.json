@@ -43,50 +43,6 @@
     },
     "comment": "mytimetable"
   },
-  "enterhourspopup": {
-    "type": "object",
-    "properties": {
-      "customer": {
-        "type": "string",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "project": {
-        "type": "string",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "function": {
-        "type": "string",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "hours": {
-        "type": "string",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "clickConfirm": {
-        "type": "action"
-      }
-    }
-  },
   "login": {
     "type": "object",
     "comment": "Login",
