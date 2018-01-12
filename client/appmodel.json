@@ -74,16 +74,8 @@
           "type": "none"
         }
       },
-      "submit": {
-        "type": "action",
-        "parameters": {
-          "username": {
-            "type": "string"
-          },
-          "password": {
-            "type": "string"
-          }
-        }
+      "login": {
+        "type": "action"
       }
     }
   },
