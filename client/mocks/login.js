@@ -10,3 +10,5 @@ window.mocks.login.submit = function ($scope, params, app) {
         });
     }
 };
+window.mocks.login.login = function ($scope, params, app) {
+};
