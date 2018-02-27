@@ -1,48 +1,4 @@
 {
-  "mytimetable": {
-    "type": "object",
-    "properties": {
-      "mytimetable": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "week": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "timeframe": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "allocatedhours": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "releasedhours": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "ChooseWeek": {
-              "type": "action"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    },
-    "comment": "mytimetable"
-  },
   "login": {
     "type": "object",
     "comment": "Login",
