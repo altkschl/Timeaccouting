@@ -64,5 +64,13 @@
         "label": "ListItems"
       }
     }
+  },
+  "checklist": {
+    "type": "object",
+    "properties": {
+      "myheader": {
+        "type": "string"
+      }
+    }
   }
 }

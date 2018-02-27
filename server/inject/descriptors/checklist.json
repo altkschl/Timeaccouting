@@ -13,5 +13,15 @@
       "control": "property.innerText"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isChecklist"
+      ],
+      "screens": [
+        "checklist"
+      ],
+      "model": "checklist"
+    }
+  ]
 }
