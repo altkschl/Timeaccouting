@@ -32,13 +32,6 @@
       "id": "checklist",
       "name": "checklist",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "checklist"
-    },
-    {
-      "id": "checklist",
-      "name": "checklist",
-      "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
     }
   ],
