@@ -65,50 +65,6 @@
       }
     }
   },
-  "enterhourspopup": {
-    "type": "object",
-    "properties": {
-      "customer": {
-        "type": "select",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "project": {
-        "type": "select",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "function": {
-        "type": "select",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "hours": {
-        "type": "string",
-        "update": {
-          "type": "action",
-          "action": [
-            "clickConfirm"
-          ]
-        }
-      },
-      "clickConfirm": {
-        "type": "action"
-      }
-    }
-  },
   "fdsyf": {
     "type": "object",
     "comment": "Forms",
