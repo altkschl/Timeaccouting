@@ -34,14 +34,5 @@
         "type": "action"
       }
     }
-  },
-  "checklist": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "myheader": {
-        "type": "string"
-      }
-    }
   }
 }
