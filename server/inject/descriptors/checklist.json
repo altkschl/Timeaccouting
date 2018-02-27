@@ -22,6 +22,12 @@
         "checklist"
       ],
       "model": "checklist"
+    },
+    {
+      "match": [],
+      "screens": [
+        "checklist"
+      ]
     }
   ]
 }
