@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "isChecklist": {
+      "type": "identifier",
+      "control": "exists"
+    }
+  },
+  "connect": [],
+  "selectContains": "Truck & Trailer checklist"
+}
