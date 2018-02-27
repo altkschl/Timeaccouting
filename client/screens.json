@@ -22,13 +22,6 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "mytimetable",
-      "name": "mytimetable",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "mytimetable"
-    },
-    {
       "id": "login",
       "name": "login",
       "sourceScreenId": "app.login.loginconfident",
