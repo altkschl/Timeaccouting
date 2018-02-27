@@ -27,13 +27,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "checklist",
-      "name": "checklist",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "checklist"
     }
   ],
   "sourceAppId": "_blank",
