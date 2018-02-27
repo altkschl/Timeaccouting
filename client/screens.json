@@ -27,13 +27,6 @@
       "sourceScreenId": "app.login.loginconfident",
       "sourceAppId": "universaltemplates",
       "model": "login"
-    },
-    {
-      "id": "fdsyf",
-      "name": "fdsyf",
-      "sourceScreenId": "app.formsmall.formsmallcool",
-      "sourceAppId": "universaltemplates",
-      "model": "fdsyf"
     }
   ],
   "sourceAppId": "_blank",
