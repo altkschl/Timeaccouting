@@ -39,7 +39,10 @@
     "type": "object",
     "properties": {
       "myheader": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
