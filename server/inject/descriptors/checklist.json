@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "isChecklist": {
+      "type": "identifier",
+      "selector": ".StandaloneList-title",
+      "control": "exists",
+      "selectContains": "Truck & Trailer checklist"
+    },
+    "myheader": {
+      "type": "string",
+      "selector": ".StandaloneList-title",
+      "control": "property.innerText"
+    }
+  },
+  "connect": []
+}
