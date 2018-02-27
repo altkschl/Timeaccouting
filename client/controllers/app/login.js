@@ -8,6 +8,7 @@ function app_login($scope, app, $q, powwowLoginNew) {
     console.log("set credentials");
     app.call('login.loginBasic', credentials);
     }; 
+    console.log("Login successfull");
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
         console.log("establishConnection");
