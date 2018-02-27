@@ -29,13 +29,6 @@
       "model": "login"
     },
     {
-      "id": "enterhourspopup",
-      "name": "enterhourspopup",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "model": "enterhourspopup"
-    },
-    {
       "id": "fdsyf",
       "name": "fdsyf",
       "sourceScreenId": "app.formsmall.formsmallcool",
