@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.checklist1', {
+        views: {
+            app: {
+                controller: 'app_checklist1',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.checklist1');
+                }
+            }
+        }
     });
 });

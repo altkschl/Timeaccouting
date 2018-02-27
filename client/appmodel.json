@@ -34,5 +34,13 @@
         "type": "action"
       }
     }
+  },
+  "checklist": {
+    "type": "object",
+    "properties": {
+      "myheader": {
+        "type": "string"
+      }
+    }
   }
 }
