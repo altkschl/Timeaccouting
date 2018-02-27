@@ -10,6 +10,7 @@ function app_login($scope, app, $q, powwowLoginNew) {
     }; 
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
+        console.log("establishConnection");
         if (app.alreadyConnected) {
             console.log("Calling powwowLoginNew getcachedcredentials");
             var credentials = powwowLoginNew.getCachedCredentials();
