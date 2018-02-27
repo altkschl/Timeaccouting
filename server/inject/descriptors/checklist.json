@@ -13,21 +13,5 @@
       "control": "property.innerText"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isChecklist"
-      ],
-      "screens": [
-        "checklist"
-      ],
-      "model": "checklist"
-    },
-    {
-      "match": [],
-      "screens": [
-        "checklist"
-      ]
-    }
-  ]
+  "connect": []
 }
