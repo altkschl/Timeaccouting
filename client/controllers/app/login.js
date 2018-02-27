@@ -1,14 +1,12 @@
 angular.module('app').controller('app_login', app_login);
 function app_login($scope, app, $q, powwowLoginNew) {
     'use strict';
-    app.init($scope);
-
- 
+    app.init($scope); 
     $scope.login = function () {
-        $scope.app.showLoading('Logging in');
-        app.call('login.loginBasic', $scope.data);
-    };
- 
+     $scope.app.showLoading('Logging in');    
+    var credentials = {'username': $scope.data.username, 'password': $scope.data.password};
+    app.call('login.loginBasic', credentials);
+    }; 
     app.origEstablishConnection = app.establishConnection;
     app.establishConnection = function (params) {
         if (app.alreadyConnected) {
